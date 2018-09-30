@@ -1,0 +1,42 @@
+body{
+	background-color: #F5F5F5; 
+}
+.row{
+	align: right;
+}
+.col-2{
+		<!--height: 300px;-->
+		border: 1px solid black;
+		}
+.nav-wrapper container{
+	
+}
+a: active: hover{
+
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #;	
+}
+li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: non;
+
+}
+li{
+	float: right;
+	align-self: right;
+}
+li a: hover{
+	background-color: #4cae51;
+}
+.active{
+	background-color: #4cae51;
+}
