@@ -1,0 +1,51 @@
+
+.container{
+	border: 1px solid grey;
+
+}
+.octaedr{
+	display: block;
+	position: relative;
+	border: 3px solid rgb(153, 153, 219);
+	width: 510px;
+	height: 300px;
+	margin: 100px auto;
+	background-image: linear-gradient(to top right,rgb(54, 72, 209), rgb(255, 170, 18));
+	box-shadow: 4px -6px 6px grey;
+
+}
+.octaedr:hover{
+	text-shadow: 5px 5px 5px;
+	border: 1px solid grey;
+	margin: 150px auto 150px;
+	border: 3px solid rgb(166, 166, 224);
+	-moz-transform: rotate(150deg); /* Для Firefox */
+	transition: all 3s;
+
+}
+h2{
+	margin: 20px 50px;
+}
+p{
+	text-align: center;
+	margin: 0 auto;
+}
+img{
+	border: 8px solid rgb(54, 72, 129);
+	margin:700px auto;
+	background-image: linear-gradient(to top right, yellow, blue);
+	box-shadow: 1px 1px 1px grey;
+}
+   .turn:hover {
+    -moz-transform: rotate(150deg); /* Для Firefox */
+    -ms-transform: rotate(150deg); /* Для IE */
+    -webkit-transform: rotate(150deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(150deg); /* Для Opera */
+    transform: rotate(150deg);
+    transition: all 3s;
+    
+   }
+   h2{
+   	text-orientation: ;
+   }
+  

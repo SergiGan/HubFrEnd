@@ -1,0 +1,178 @@
+
+ html{
+
+ 	font-size: 14px; /* px означає 'пікселі': базовий розмір шрифта встановлюється рівним 10 пікселів заввишки  */
+  	font-family: arial, times new roman;/**/
+}
+body{
+	position: relative;
+	display: inline-block;
+	margin: 0px 0px;
+	background: url("../images/agency-final fon darck.jpg") no-repeat ;
+	/*background-image: url("../images/agency-final fon with button.jpg") ;*/
+	/*background-position: center;*/
+	 /*background-attachment: scroll;fixed, local*/
+	background-size: 100%;
+	
+	width: 100%;
+	height: 1080px;
+	
+	/*background: linear-gradient(blue, yellow);
+
+	
+	/*background: white;  має пріоритет*/
+	/*;
+	background-repeat: repeat-y; */
+}
+header{
+	width: 100%;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	margin: 0 0;
+	/*background: url(rgb(255, 99, 22, 0.5); blue;
+	/*background: #555;*/
+	/*background-image: url("../images/agency-final fon clear.jpg")  no-repeat fixed center;
+	/*background-size: auto;*/
+	align-content: center;
+}
+.col-lg-6{
+	
+	
+	/*min-height: 300px;*/
+	
+	padding-left: 15px;
+	
+}
+.title{
+	/*align-content: left;*/
+	width: 1102px;
+	height: 136px;
+	
+	/*line-height: 38px;*/
+	color: #949494;
+	/*font-family: "Proxima Nova";*/
+	font-weight: 250;
+
+	margin: 43px 879px;
+	padding-top: 100px;
+	/**/text-align: center;
+}
+.subtitle{
+	margin: 6px 5px;
+	padding: 1px;
+}
+
+h1{
+	margin: 34px 29px 0px 4px;
+	color: #FFFFFF;
+	font-size: 72px;
+	letter-spacing: -2px;
+	/*font-weight: bold;*/
+	line-height: 45px;
+	color: #ffffff;
+	/*font-family: "Proxima Nova";*/
+	/*text-align: center;*/
+	
+}
+#title-top{
+	position: relative;
+	display: inline;
+	text-align: center;
+	
+}
+		
+.row#person{
+	display: inline-block;
+	width: auto;
+	height: 750px;
+	border: 0px solid white;
+	margin-left: 520px;
+}
+.photo{
+	
+	float: left;
+	justify-content: center;
+    margin: 195px 45px;
+    width: 360px;
+    border: 0px solid #FFF;
+    background-color: 0, 0, 0, 0.9;
+    /*box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);*/
+    /*transition: all 0.3s ease-in-out 0s;*/
+    text-align: center;
+}
+img{
+	display: inline-block;
+	position: relative;
+	width: 230px;
+	/*vertical-align: center;
+	max-width: 100%;
+	height: auto;
+	border: round ;*/
+}
+img.round {
+	border-radius: 200px; /* Радиус скругления */
+    border: 0px solid #191b29; /* Параметры рамки */
+    							/* box-shadow: 0 0 3px #666; Параметры тени */
+}
+span h2{
+	font-size: 38px;
+	margin-top: 20px;
+	/*line-height: 46px;*/
+	color: #ffffff;
+	/*font-family: "Roboto";*/
+	font-weight: 750;
+	
+}
+h3{
+	
+	/*height: 102px;*/
+	font-size: 26px;
+	line-height: 42px;
+	color: #949494;
+	font-family: "Proxima Nova";
+	font-weight: 300;
+	letter-spacing: 1.1px;
+	/*text-align: center;*/
+}
+h4{
+	/*height: 202px;*/
+	font-size: 28px;
+	line-height: 46px;
+	letter-spacing: 1px;
+	color: #949494;
+	font-family: "Proxima Nova";
+	font-weight: 200;
+	/*text-align: center;*/
+}
+ .more button.watchMore{
+	margin: 10px 960px 50px 1275px; 
+	width: 300px;
+	height: 74px;
+	border-radius: 35px;
+	border: 0px;
+	background-image: linear-gradient(74deg, #49007c 0%, #e70088 100%);
+	font-size: 28px;
+	line-height: 36px;
+	color: #ffffff;
+	font-family: "Proxima Nova";
+	text-align: center;
+
+}
+
+	/*background-color: (0,0,0,0.9);opacity: 0.6;*/
+	
+	
+	/*background: linear-gradient(to right, blue, yellow);*/
+	
+
+
+/*@media (min-width: 320px){
+	.center {
+		width: 200px;
+		height: 200px;
+		background:linear-gradient(to left, yellow, blue);
+	}
+}

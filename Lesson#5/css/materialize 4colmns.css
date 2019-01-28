@@ -1,0 +1,66 @@
+*{
+	transition: all .2s;
+}
+body{
+	margin: 0;
+	background: white;
+}
+.container{
+	position: relative;
+		
+	width: 95%;
+	margin: 0 auto;
+	height: 600px;
+	min-width: 360px;
+	align-items: stretch;
+	
+
+	
+}
+p{
+	font-size: 36px;
+	font-weight: bold;
+}
+#one{
+	margin-top: 20px;
+	position: relative;
+}
+#two {
+	display: inline-block;
+	position: relative;
+	margin-top: 40px;
+	width: 100%;
+}
+
+.col.l3 {
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	
+	
+	margin: 20px;
+	
+			
+	
+			
+		
+		
+	
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+	.col.m6{
+		height: 250px;
+		padding-top: 35px;
+
+	}
+	#one{
+	margin: 0;
+	
+	width: 100%;
+	float: clear;
+	left: 0px;
+	
+}
+}
