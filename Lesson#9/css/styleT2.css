@@ -1,0 +1,117 @@
+
+.container {
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 50%;
+	width: 305px;
+	height: 504px;
+	margim-top: -252px;
+	margin-left: -152.5px;
+	border: 1px solid black;
+	
+	/*float:left; background: url("../images/калькулятор фон.png") no-repeat;*/
+}
+img{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+button#f0:hover{
+	border: 1px solid #888c90
+}
+button{
+	position: absolute;
+	width: 72px;
+    height: 49px;
+}
+
+#signs {
+    margin-top: 450px;
+    margin-left: -299px;
+}
+#f0 {
+    margin-top: -59px;
+    margin-left: 80px;
+}
+#dote {
+    margin-top: -59px;
+    margin-left: 154.5px;
+}
+#equal {
+    margin-top: -58.5px;
+    margin-left: 80px;
+}
+#f1 {
+    margin-top: -109.5px;
+    margin-left: 6px;
+}
+#f2 {
+    margin-top: -110px;
+    margin-left: 80px;
+}
+#f3 {
+    margin-top: -110px;
+    margin-left: 154px;
+}
+#plus {
+    margin-top: -110px;
+    margin-left: 228px;
+}
+#f4 {
+    margin-top: -161px;
+    margin-left: 6px;
+}
+#f5 {
+    margin-top: -161px;
+    margin-left: 80px;
+}
+#f6 {
+    margin-top: -161px;
+    margin-left: 154px;
+}
+#minus {
+    margin-top: -161px;
+    margin-left: 227.5px;
+}
+#f7 {
+    margin-top: -211px;
+    margin-left: 6px;
+}
+#f8 {
+    margin-top: -211px;
+    margin-left: 80px;
+}
+#f9 {
+    margin-top: -211px;
+    margin-left: 154px;
+}
+#multiply {
+    margin-top: -211px;
+    margin-left: 227.5px;
+}
+
+
+
+
+
+
+
+.col-sm-4{
+width: 80px;
+height: 40px;
+float:left;
+background: blue;
+border: 2px solid white;
+color:white;
+} 
+.col-sm-8{
+text-align: right;
+display: inline-block;
+border: 1px solid black;
+heght:40px;
+float:left;
+
+}
+.col-sm-8 ul a{
+text-decoration: none;
+}
