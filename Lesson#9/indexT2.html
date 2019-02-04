@@ -6,7 +6,7 @@
 
 <link rel="stylesheet" href="css/styleT2.css" type="text/css"/>
 
-<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 </head>
 <body>
 			<!--<container-fluid>
@@ -35,8 +35,124 @@
 
 
 <div class="container">
-	<img src="images/калькулятор фон.png" alt="калькулятор фон">
-		<button onclick="f_signs()" id="signs">+-</button>
+	
+	<div class="panel-info">
+		<label >Calculator</label>
+	</div>
+	<div class="menu">
+		<div class="choice-mode">Standart</div>
+	</div>
+	<div class="panel-input">
+		<input id="result" class="result" type="text" >
+		<div class="row">
+				<div class="col-xs-2">
+					<input type="button" class="btn btn-default" value="MC">
+				</div>
+				<div class="col-xs-2">
+					<input type="button" class="btn btn-default" value="MR">
+				</div>
+				<div class="col-xs-2">
+					<input type="button" class="btn btn-default" value="M+">
+				</div>
+				<div class="col-xs-2">
+					<input type="button" class="btn btn-default" value="M-">
+				</div>
+				<div class="col-xs-2">
+					<input type="button" class="btn btn-default" value="MS">
+				</div>
+				<div class="col-xs-2">
+					<input type="button" class="btn btn-default" value="M-">
+				</div>
+		</div>
+		<div class="row">
+					<div class="col-sm-3">
+						<input type="button" class="btn btn-default" value="%">
+					</div>
+					<div class="col-sm-3">
+						<input type="button" class="btn btn-default" value="sqrt">
+					</div>
+					<div class="col-sm-3">
+						<input type="button" class="btn btn-default" value="x^2">
+					</div>
+					<div class="col-sm-3">
+						<input type="button" class="btn btn-default" value="1/x">
+					</div>
+		</div>
+		<div class="row">
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="CE">
+				</div>
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="C">
+				</div>
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="DEL">
+				</div>
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="/">
+				</div>
+		</div>
+		<div class="row">
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="7">
+				</div>
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="8">
+				</div>
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="9">
+				</div>
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="X">
+				</div>
+		</div>
+		<div class="row">
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="4">
+				</div>
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="5">
+				</div>
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="6">
+				</div>
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="-">
+				</div>
+		</div>
+		<div class="row">
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="1">
+				</div>
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="2">
+				</div>
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="3">
+				</div>
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="+">
+				</div>
+		</div>
+		<div class="row">
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="&plusmn">
+				</div>
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="0">
+				</div>
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value=".">
+				</div>
+				<div class="col-sm-3">
+					<input type="button" class="btn btn-default" value="=">
+				</div>
+		</div>
+	</div>
+	
+		<!--
+		<img src="images/калькулятор фон.png" alt="калькулятор фон">
+		<button onclick="f_signs()" id="signs">&plusmn</button>
 		<button onclick="f_0()" id="f0">0</button>
 		<button onclick="f_dote()" id="dote">.</button>
 		<button onclick="f_equal()" id="equal">=</button>
@@ -52,18 +168,18 @@
 		<button onclick="f_7()" id="f7">7</button>
 		<button onclick="f_8()" id="f8">8</button>
 		<button onclick="f_9()" id="f9">9</button>
-		<button onclick="f_multiply()" id="multiply">X</button>
+		<button onclick="f_multiply()" id="multiply">X</button>-->
 
 </div>
-<div class="containerCalc">
+<!--<div class="containerCalc">
 	
-</div>
+</div>-->
 
 <script src="js/calc.js"></script>
 
-<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>-->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 
 </body>

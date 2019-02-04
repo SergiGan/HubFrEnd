@@ -1,4 +1,18 @@
-function f_0(){
+var result = null;
+windows.onload = function() {
+	result = document.getElementById('result');
+}
+function onclick(button){
+	result.value += button.value;
+}
+
+
+function equalsClick(button){
+	
+}
+
+
+/*function f_0(){
 from_get=document.getElementById("f0").innerHTML;
 alert(from_get);
 from_result = document.getElementById("result").innerHTML;
