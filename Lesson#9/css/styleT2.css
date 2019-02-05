@@ -8,29 +8,28 @@ body{
 }
 .container {
 	/**/
-	/*display: block;;position: relative;*/
-	top: 50%;
-    left: 50%; 
-    margin: 5% 0 5% 0;
+	display: block;
+   
+    margin: 5% 0 5% 5%;
 	width: 305px;
 	height: 504px;
-	
+	max-width: 305px;
 	border: 1px solid black;
 	background: url("../images/калькулятор фон.png") no-repeat;
 	/*float:left; */
 }
 #result{
-    position: relative;
+    
     width: 295px;
     height: 70px;
     background: white;
     border: 1px solid grey;
     text-align: right;
     font-size: 22px;
-    padding: 0px;
+    padding: 5px 3px 3px 3px;
 }
-.btn{
-    width: 72px;
+.col-xs-2.btn{
+    width: 50px;
     height: 49px;
     background: grey;
 }
@@ -39,9 +38,11 @@ body{
     margin-right: 0;
 }
 .col-xs-2{
-    padding: 2px;
+    padding: 0.5px;
 }
-
+.col-xs-3{
+    padding: 5px;
+}
 /*
 img{
     margin: 0px 0px 0px 0px;
