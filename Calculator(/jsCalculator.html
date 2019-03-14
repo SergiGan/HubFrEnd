@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="css/jsCalculator.css">
+  <title>Bootstrap page!</title>
+  </head>
+  <body>
+
+<div class="calculator"  >
+    <div class="calc_row">
+        <div class="col-8 title">
+              Calculator
+        </div>
+           <div class="col-4">
+             <button class="down" >&ndash;</button>
+             <button class="up"><img src="images/up.png"></button>
+             <button class="close" value="/">&times;</button>
+          </div>
+    </div>
+    <div class="calc_row">
+        <div class="col-2 menu" >
+            <button><img src="images/кнопка меню.png"></button>
+        </div>
+        <div class="col-8 "><div class="mode">Standard</div></div>
+        <div class="col-2 history"><button><img src="images/history.png"></button></div>
+    </div>
+    <!-- CALCULATOR FORM -->
+    <form class="calc_form">
+        <!-- CALCULATOR ROW -->
+        <div class="calc_row">
+            <input class="calc_display" id="display" value=""type="text" placeholder="0" /> <!--через властивість DOM-елемента-->
+        </div>
+
+        <!-- CALCULATOR ROW mem-->
+        <div class="calc_row">
+            <button type="button" value="c" class="calc_M calc__MC">MC</button>
+            <button type="button" value="<--" class="calc_M calc__MR">MR</button>
+            <button type="button" value="^3" class="calc_M calc__M+" >M+</button>
+            <button type="button" value="+" class="calc_M calc__M-" id="M-">M-</button>
+            <button type="button" value="+" class="calc_M calc__MS" id="MS">MS</button>
+            <button type="button" value="+" class="calc_M calc__M*">M*</button>
+        </div>
+        <!-- CALCULATOR ROW -->
+        <div class="calc_row">
+            <button type="button" value="c" class="calc_key calc__Pers">%</button>
+            <button type="button" value="sqrt" onclick="Math.sqrt(getElementBiId('display').value)" class="calc_key calc__sqrt"><i>&radic;</i></button>
+            <button type="button" value="^2" class="calc_key calc__x*x">x<sup>2</sup></button>
+            <button type="button" value="" class="calc_key calc__onX">⅟<i>x</i></button>
+        </div>
+        <!-- CALCULATOR ROW -->
+        <div class="calc_row">
+            <button type="button" onclick="click" value="c" class="calc_key calc_clear">CE</button>
+            <button type="button" value="C" class="calc_key calc_backspace">C</button>
+            <button type="button" value="^3" class="calc_key calc_power">&#9003;</button>
+            <button type="button" value="/" id="blue" class="calc_key calc_button">&divide;</button>
+        </div>
+        <!-- CALCULATOR ROW -->
+        <div class="calc_row">
+            <button type="button" value="7" class="calc_key calc_button" id="white">7</button>
+            <button type="button" value="8" class="calc_key calc_button" id="white">8</button>
+            <button type="button" value="9" class="calc_key calc_button" id="white">9</button>   
+            <button type="button" value="*" id="blue" class="calc_key calc_button" >&times;</button>   
+        </div>
+        <!-- CALCULATOR ROW -->
+        <div class="calc_row">
+            <button type="button" value="4" class="calc_key calc_button" id="white">4</button>
+            <button type="button" value="5" class="calc_key calc_button" id="white">5</button>
+            <button type="button" value="6" class="calc_key calc_button" id="white">6</button>     
+            <button type="button" value="sup" id="blue" class="calc_key calc_button">&minus;</button>
+            
+        </div>
+        <!-- CALCULATOR ROW -->
+        <div class="calc_row">
+            <button type="button" value="1" class="calc_key calc_button" id="white">1</button>
+            <button type="button" value="2" class="calc_key calc_button" id="white">2</button>
+            <button type="button" value="3" class="calc_key calc_button" id="white">3</button>
+            <button type="button" value="+" id="blue" class="calc_key calc_button">&plus;</button>
+        </div>
+        <!-- CALCULATOR ROW -->
+        <div class="calc_row">
+             <button type="button" value="&plusmn;" class="calc_key calc_button">&plusmn;</button>
+            <button type="button" value="0" class="calc_key calc_button" id="white">0</button>
+            <button type="button" value="," class="calc_key calc_button">,</button>
+            <button type="button" value="=" id="blue" class="calc_key calc_button calc_key_equal">=</button>
+        </div>
+    </form>
+</div>
+
+<script src="js/calcNew.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>-->
+
+
+</body>
+</html>

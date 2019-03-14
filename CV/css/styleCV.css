@@ -1,0 +1,54 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-color: light;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar{
+	margin: 0px ;
+	background: #00316b;
+}
+#navbarNavAltMarkup .navbar-nav{
+	align: center;
+}
+sub{
+	text-transform:uppercase
+}
+.navbar-collapse{
+	justify-content: flex-end;	
+}
+.photo{
+	height: 20px;
+	width: 20px;
+	background: transparent;
+}
+
+span p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.educate{
+	display: inline-block;
+}
+footer{
+	background: #00316b;
+
+}
+div .alert .alert-secondary {
+	margin: 0px;
+}
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+/*.info, .col-lg-8{
+	height: 450px;
+	border:1px solid black;
+}
