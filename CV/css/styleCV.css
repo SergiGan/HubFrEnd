@@ -1,8 +1,8 @@
 body{
 	margin:0px;
 	padding: 0px;
-	background-color: light;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: lightgrey;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif", Times New Romans;
 }
 .navbar{
 	margin: 0px ;
@@ -22,7 +22,13 @@ sub{
 	width: 20px;
 	background: transparent;
 }
-
+.leftimg{
+	float: left;
+	overflow: left;
+}
+p{
+	font-family: Times New Roman;
+}
 span p{
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -30,14 +36,23 @@ span p{
 .educate{
 	display: inline-block;
 }
+
 footer{
 	background: #00316b;
 
 }
+
 div .alert .alert-secondary {
 	margin: 0px;
 }
-@media (min-width: 576px) { ... }
+
+@media (max-width: 576px) { 
+	.card{
+		width:126px;
+		height:240px;
+	}
+	
+ }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
