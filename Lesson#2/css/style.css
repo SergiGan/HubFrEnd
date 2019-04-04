@@ -1,0 +1,33 @@
+
+body{
+	
+	margin: 0;
+	padding: 0;
+}
+table{
+	margin: 10% 10%;
+	width: 1300px;
+	height:844px;
+	background:  radial-gradient(farthest-corner at 50% 50%, white, #DCECF8);
+	border-collapse: collapse;/*cellspacing:0;writing-mode:*/
+	border: 5px solid black;
+	border-right: 1px solid white;
+}
+td{
+	padding: 0 0 0 3px;
+	height:24px;
+	width:27px;
+	border:1px solid black;/* background: url("../images/fon.jpg") */
+}
+#center{
+	text-align: center;
+}
+div{
+	transform: rotate(-90deg);
+	 -moz-transform: rotate(-90deg); /* Для Firefox */
+    -ms-transform: rotate(-90deg); /* Для IE */
+    -webkit-transform: rotate(-90deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-90deg); /* Для Opera */
+    padding: 0px;
+	text-align:center;
+}
