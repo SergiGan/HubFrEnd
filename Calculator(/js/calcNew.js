@@ -1,3 +1,6 @@
+//document.addEventListener("DOMContentLoaded", function(){
+  // Handler when the DOM is fully loaded}); in JS
+
 $(document).ready(function () {
 
     // VARs
@@ -13,15 +16,16 @@ $(document).ready(function () {
         // INITIAL CALC KEYS
 calcKeys.each(function () {
     var current = $(this).attr('value');
-    $(this).text(current);
+                                //alert(current);
+    //$(this).text(current);
 });
 
-    // ADD NUMBERS TO INPUT
+    //ADD NUMBERS TO INPUT
 calcButton.on('click', function () {
-    calcDisplay.val( calcDisplay.val() + $(this).attr('value') );
+    calcDisplay.val( calcDisplay.val() + $(this).attr('value') ); //concatenation current value of element
 });
 
-            // CLEAR INPUT
+    //CLEAR INPUT DISPLAY
 calcClear.on('click', function () {
     calcDisplay.val('');
 });

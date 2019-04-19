@@ -1,4 +1,4 @@
-
+﻿
 body{
 	
 	margin: 0px;
@@ -17,11 +17,9 @@ body{
 	justify-content: center;
 	margin: 300px auto;
 	background: url(../images/Alecto_PSD-Template.png) no-repeat;/*-example*/
-	background-size: 100%;
+	background-size: 100% auto;
 	align-items: flex-end;
 			/*flex-grow: 1;justify-content: space-around;*/
-	
-
 }
 .octaedr1,.octaedr2, .octaedr3, .octaedr4{
 	width: 250px;
@@ -35,17 +33,12 @@ body{
 	align-items: flex-end;
 	height: 160px;
 	margin-right: 20px;
-
-	
 }
-
-
 .octaedr2{
 	width: 1000px;
 	margin-top: 40px;
 	margin-left: 10px;
 	margin-right: 10px;
-	
 }
 .octaedr3{
 	display: flex;
@@ -96,8 +89,6 @@ baseline | stretcha{
 text-decoration: none;
 } */
 	
-	/*flex-flow: column;*/
-
 .LearnMore button {
 	
 	border: 2px solid white;

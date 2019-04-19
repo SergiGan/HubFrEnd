@@ -133,14 +133,17 @@ font-variant : small-caps;
 .calc_key:hover{
 	font-weight : 700;
 	background:  radial-gradient(farthest-corner at 50% 50%, white, #DCECF8);	
+	box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
 .calc_M:hover {
 	font-weight : 700;
 	border : lightblue solid 1px;
+	box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
 #blue:hover {
 background:  radial-gradient(farthest-corner at 50% 50%, white, #4d5980);
 color : black;
+box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
 #white {
 background : white;
@@ -151,5 +154,6 @@ font-weight : bold;
 background-color : lightblue;
 font-weight : 700;
 color : white;
+box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
