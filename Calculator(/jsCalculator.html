@@ -37,7 +37,7 @@
     <form class="calc_form">
         <!-- CALCULATOR ROW -->
         <div class="calc_row">
-            <input class="calc_display" name="res" id="display" value="" type="text" placeholder="0" /> <!--через властивість DOM-елемента-->
+            <input class="calc_display" name="res" type="text" id="display" value=""  placeholder="0" /> <!--через властивість DOM-елемента-->
         </div>
 
         <!-- CALCULATOR ROW mem-->
@@ -51,17 +51,17 @@
         </div>
         <!-- CALCULATOR ROW -->
         <div class="calc_row">
-            <button type="button" value="c" class="calc_key calc__Pers">%</button>
-            <button type="button" value="sqrt" onclick="Math.sqrt(getElementBiId('display').value)" class="calc_key calc__sqrt"><i>&radic;</i></button>
-            <button type="button" value="^2" class="calc_key calc__x*x">x<sup>2</sup></button>
+            <button type="button" value="%" class="calc_key calc__Pers">%</button>
+            <button type="button" value="sqrt" onclick="Math.sqrt(getElementBiId('display').value)" class="calc_key calc_sqrt"><i>&radic;</i></button>
+            <button type="button" value="^2" class="calc_key calc_power">x<sup>2</sup></button>
             <button type="button" value="" class="calc_key calc__onX">⅟x</button>
         </div>
         <!-- CALCULATOR ROW -->
         <div class="calc_row">
             <button type="button" onclick="click" value="c" class="calc_key calc_clear">CE</button>
-            <button type="button" value="C" class="calc_key calc_backspace">C</button>
-            <button type="button" value="^3" class="calc_key calc_power">&#9003;</button>
-            <button type="button" value="/"  class="calc_key calc_button" id="blue">&divide;</button>
+            <button type="button" value="C" class="calc_key calc_clear">C</button>
+            <button type="button" value="" class="calc_key calc_backspace">&#9003;</button>
+            <button type="button" value="÷" class="calc_key calc_button" id="blue">&divide;</button>
         </div>
         <!-- CALCULATOR ROW -->
         <div class="calc_row">
@@ -75,7 +75,7 @@
             <button type="button" value="4" class="calc_key calc_button" id="white">4</button>
             <button type="button" value="5" class="calc_key calc_button" id="white">5</button>
             <button type="button" value="6" class="calc_key calc_button" id="white">6</button>     
-            <button type="button" value="sup"  class="calc_key calc_button" id="blue">&minus;</button>
+            <button type="button" value="-"  class="calc_key calc_button" id="blue">&minus;</button>
             
         </div>
         <!-- CALCULATOR ROW -->
@@ -90,7 +90,7 @@
              <button type="button" value="&plusmn;" class="calc_key calc_button">&plusmn;</button>
             <button type="button" value="0" class="calc_key calc_button" id="white">0</button>
             <button type="button" value="," class="calc_key calc_button">,</button>
-            <button type="button" value=""  class="calc_key calc_button calc_key_equal" id="blue">=</button>
+            <button type="button" value=""  class="calc_key calc_button calc_key_equal" >=</button>
         </div>
     </form>
 </div>

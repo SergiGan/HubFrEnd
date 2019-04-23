@@ -156,4 +156,8 @@ font-weight : 700;
 color : white;
 box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
-
+.calc_key_equal:hover{
+	background:  radial-gradient(farthest-corner at 50% 50%, white, #008000);
+	color : black;
+	box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);	
+}
