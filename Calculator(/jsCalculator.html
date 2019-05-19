@@ -42,26 +42,26 @@
 
         <!-- CALCULATOR ROW mem-->
         <div class="calc_row">
-            <button type="button" value="c" class="calc_M calc__MC">MC</button>
-            <button type="button" value="<--" class="calc_M calc__MR">MR</button>
-            <button type="button" value="^3" class="calc_M calc__M+" >M+</button>
-            <button type="button" value="+" class="calc_M calc__M-" id="M-">M-</button>
-            <button type="button" value="+" class="calc_M calc__MS" id="MS">MS</button>
-            <button type="button" value="+" class="calc_M calc__M*">M*</button>
+            <button type="button" value="mc" class="calc_M calc_MC" id="MC">MC</button>
+            <button type="button" value="" class="calc_M calc_MR" id="MR">MR</button>
+            <button type="button" value="M+" class="calc_M calc_M+" id="M+" >M+</button>
+            <button type="button" value="M-" class="calc_M calc_M-" id="M-">M-</button>
+            <button type="button" value="+" class="calc_M calc_MS" id="MS">MS</button>
+            <button type="button" value="M*" class="calc_M calc_M*">M*</button>
         </div>
         <!-- CALCULATOR ROW -->
         <div class="calc_row">
-            <button type="button" value="%" class="calc_key calc__Pers">%</button>
-            <button type="button" value="sqrt" onclick="Math.sqrt(getElementBiId('display').value)" class="calc_key calc_sqrt"><i>&radic;</i></button>
+            <button type="button" title="The rest of division" value="%" class="calc_key calc_Pers">%</button>
+            <button type="button" value="sqrt" onclick="Math.sqrt()" class="calc_key calc_sqrt"><i>&radic;</i></button>
             <button type="button" value="^2" class="calc_key calc_power">x<sup>2</sup></button>
-            <button type="button" value="" class="calc_key calc__onX">⅟x</button>
+            <button type="button" value="1/x" class="calc_key calc_onX">⅟x</button>
         </div>
         <!-- CALCULATOR ROW -->
         <div class="calc_row">
-            <button type="button" onclick="click" value="c" class="calc_key calc_clear">CE</button>
+            <button type="button"  value="CE" class="calc_key calc_clear">CE</button>
             <button type="button" value="C" class="calc_key calc_clear">C</button>
             <button type="button" value="" class="calc_key calc_backspace">&#9003;</button>
-            <button type="button" value="÷" class="calc_key calc_button" id="blue">&divide;</button>
+            <button type="button" value="/" class="calc_key calc_button" id="blue">&divide;</button>
         </div>
         <!-- CALCULATOR ROW -->
         <div class="calc_row">
@@ -87,9 +87,9 @@
         </div>
         <!-- CALCULATOR ROW -->
         <div class="calc_row">
-             <button type="button" value="&plusmn;" class="calc_key calc_button">&plusmn;</button>
+             <button type="button" title="To pass a sign" value="&plusmn;" class="calc_key calc_button signs">&plusmn;</button>
             <button type="button" value="0" class="calc_key calc_button" id="white">0</button>
-            <button type="button" value="," class="calc_key calc_button">,</button>
+            <button type="button" value="." class="calc_key calc_button">.</button>
             <button type="button" value=""  class="calc_key calc_button calc_key_equal" >=</button>
         </div>
     </form>

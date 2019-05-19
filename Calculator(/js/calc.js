@@ -16,7 +16,7 @@ function equalsClick(button){
 from_get=document.getElementById("f0").innerHTML;
 alert(from_get);
 from_result = document.getElementById("result").innerHTML;
-if (from_result === "0")(document.getElementById("result").innerHTML = "";}
+if (from_result === "0"){document.getElementById("result").innerHTML = "";}
 	from_length = from_result.length;
 
 	document.getElementById("result").innerHTML += from_id;
